@@ -37,6 +37,11 @@ public class menu : MonoBehaviour
     [Header("¸ÑªR«×Dropdown")]
     public Dropdown SizeDropdown;
 
+    [Header("»y¨¥Dropdown")]
+
+    public Dropdown LanDropdown;
+    string SaveLanID = "SaveLanID";
+
     private void Awake()
     {
 #if UNITY_STANDALONE_WIN
@@ -139,5 +144,10 @@ public class menu : MonoBehaviour
 
     }
 
+
+    public void ChangeLan() {
+        PlayerPrefs.SetInt(SaveLanID,LanDropdown.value);
+    
+    }
 
 }

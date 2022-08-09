@@ -565,15 +565,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000000014305114
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.1
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -639,6 +639,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.59122634, y: 0.3324733, z: 1.4226357}
   m_Center: {x: -0.031600475, y: -0.004511967, z: -0.13156912}
+--- !u!114 &488328544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488328541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb34ad3ea9be51b4a9adc2ea4b4d0048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 10
+  MinX: -2.3
+  MaxX: 2.3
+  MinY: -4.6
+  MaxY: 4.6
 --- !u!1 &549962651
 GameObject:
   m_ObjectHideFlags: 0
