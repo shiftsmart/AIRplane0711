@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: d3903d14bf699ba4995548aff009fcf7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2537913605389116518
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_0
+  - first:
+      213: -8283703740740577909
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_1
+  - first:
+      213: -4493052346685503565
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_2
+  - first:
+      213: -2680527617996558530
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_3
+  - first:
+      213: -5433149441473858154
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_4
+  - first:
+      213: -1422411455200626435
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_5
+  - first:
+      213: -3717147716222415365
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_6
+  - first:
+      213: 4900037543740066727
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_7
+  - first:
+      213: 1109377066354743246
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_8
+  - first:
+      213: 3267799533409269300
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_9
+  - first:
+      213: -5532061044527036135
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_10
+  - first:
+      213: -7994005032816233729
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_11
+  - first:
+      213: -726747758450166634
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_12
+  - first:
+      213: 2792355766624710138
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_13
+  - first:
+      213: -8097071370582141985
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_14
+  - first:
+      213: -838902740213064643
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_15
+  - first:
+      213: 365401346834679815
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_16
+  - first:
+      213: 6480884062255771105
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_17
+  - first:
+      213: 257281398490859821
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_18
+  - first:
+      213: -6721914847395132472
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_19
+  - first:
+      213: 3644231703513016603
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_20
+  - first:
+      213: 8388074109837503493
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_21
+  - first:
+      213: -1488828581653486234
+    second: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 313
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b9628b50587ccd0800000000000000
+      internalID: -2537913605389116518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 314
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b855594365f5a0d80800000000000000
+      internalID: -8283703740740577909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 312
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7439622b875a1c0800000000000000
+      internalID: -4493052346685503565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 311
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fe0be555adccad0800000000000000
+      internalID: -2680527617996558530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 312
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695b6597e539994b0800000000000000
+      internalID: -5433149441473858154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 310
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8f1585154924ce0800000000000000
+      internalID: -1422411455200626435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 333
+        width: 88
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd88eca8d90a6cc0800000000000000
+      internalID: -3717147716222415365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 332
+        width: 91
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab44bc3f2e600440800000000000000
+      internalID: 4900037543740066727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_8
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 305
+        width: 88
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec71a0a609c456f00800000000000000
+      internalID: 1109377066354743246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 305
+        width: 88
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436fb02bc5e895d20800000000000000
+      internalID: 3267799533409269300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 227
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91980354acb2a33b0800000000000000
+      internalID: -5532061044527036135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 227
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2bd46d6c69f0190800000000000000
+      internalID: -7994005032816233729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_12
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 227
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6943440a3c21ae5f0800000000000000
+      internalID: -726747758450166634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 32
+        width: 177
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afded2476c070c620800000000000000
+      internalID: 2792355766624710138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_14
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 144
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 3, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd357731d7c61af80800000000000000
+      internalID: -8097071370582141985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 3, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c9f78076e9b54f0800000000000000
+      internalID: -838902740213064643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_16
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 148
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708c786c69a221500800000000000000
+      internalID: 365401346834679815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 86
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edee39a7b9b0f950800000000000000
+      internalID: 6480884062255771105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 86
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d290d5c911c029300800000000000000
+      internalID: 257281398490859821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 86
+        width: 77
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbc69e7f06f6b2a0800000000000000
+      internalID: -6721914847395132472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b192c172d69e29230800000000000000
+      internalID: 3644231703513016603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 32
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ce38206fc686470800000000000000
+      internalID: 8388074109837503493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile-game-ui-kit-design-vector-Graphics-8517950-2-580x386_22
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 32
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665681b0b4e965be0800000000000000
+      internalID: -1488828581653486234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
