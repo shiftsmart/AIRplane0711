@@ -42,6 +42,8 @@ public class menu : MonoBehaviour
     public Dropdown LanDropdown;
     string SaveLanID = "SaveLanID";
 
+    public InputField[] Keyboards;
+
     private void Awake()
     {
 #if UNITY_STANDALONE_WIN
@@ -51,14 +53,20 @@ public class menu : MonoBehaviour
         SizeDropdown.interactable = false;
 
 #endif
-
+        if (Staticvar.KeyboardsState[0] == null || Staticvar.KeyboardsState[1] == null || Staticvar.KeyboardsState[2] == null || Staticvar.KeyboardsState[3] == null)
+        {
+            Keyboards[0].text = "w";
+            Keyboards[1].text = "s";
+            Keyboards[2].text = "a";
+            Keyboards[3].text = "d";
+        }
     }
-
     // Start is called before the first frame update
     void Start()
     {
-        filePaths = Directory.GetFiles(Application.streamingAssetsPath,"*.png");
-        if (GameObject.FindGameObjectsWithTag("BGM").Length<=0) {
+        filePaths = Directory.GetFiles(Application.streamingAssetsPath, "*.png");
+        if (GameObject.FindGameObjectsWithTag("BGM").Length <= 0)
+        {
             Instantiate(BGM);
         }
     }
@@ -66,10 +74,11 @@ public class menu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void gotostage() {
+    public void gotostage()
+    {
 
         SceneManager.LoadScene("stage");
 
@@ -77,19 +86,20 @@ public class menu : MonoBehaviour
 
     public void Quit()
     {
-       
+
 
 
         Application.Quit();
     }
 
-    void StreamingAssetsLoadTexture(int ID) {
+    void StreamingAssetsLoadTexture(int ID)
+    {
         byte[] pngBytes = File.ReadAllBytes(filePaths[ID]);
-        Texture2D tex = new Texture2D(0,0);
+        Texture2D tex = new Texture2D(0, 0);
 
         tex.LoadImage(pngBytes);
 
-        Sprite FormTex = Sprite.Create(tex, new Rect(0f, 0f, tex.width, tex.height), new Vector2(0.5f,0.5f));
+        Sprite FormTex = Sprite.Create(tex, new Rect(0f, 0f, tex.width, tex.height), new Vector2(0.5f, 0.5f));
         ButtonSound.sprite = FormTex;
 
 
@@ -99,7 +109,7 @@ public class menu : MonoBehaviour
     {
 
         //AudioListener.volume = ChangeAudioSlider.value;
-        AudioMixerObj.SetFloat("BGM",ChangeAudioSlider.value);
+        AudioMixerObj.SetFloat("BGM", ChangeAudioSlider.value);
     }
 
     public void Control_Audio()
@@ -124,11 +134,13 @@ public class menu : MonoBehaviour
         AudioListener.pause = ControlAudio;
 
     }
-    public void ChangeScreenSize() {
+    public void ChangeScreenSize()
+    {
 
-        switch (SizeDropdown.value) {
+        switch (SizeDropdown.value)
+        {
             case 0:
-                Screen.SetResolution(1080,1920,false);
+                Screen.SetResolution(1080, 1920, false);
                 break;
             case 1:
                 Screen.SetResolution(720, 1280, false);
@@ -145,9 +157,15 @@ public class menu : MonoBehaviour
     }
 
 
-    public void ChangeLan() {
-        PlayerPrefs.SetInt(SaveLanID,LanDropdown.value);
-    
+    public void ChangeLan()
+    {
+        PlayerPrefs.SetInt(SaveLanID, LanDropdown.value);
+
+    }
+    public void SetKeyboard(int ID)
+    {
+        Staticvar.KeyboardsState[ID] = Keyboards[ID].text;
+
     }
 
 }
