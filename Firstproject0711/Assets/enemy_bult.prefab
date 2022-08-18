@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 348792103417172530}
   - component: {fileID: 4960451206716318498}
   - component: {fileID: 8707103688544628806}
-  - component: {fileID: 6240241681675960765}
   - component: {fileID: 1920609549558797095}
+  - component: {fileID: 9131066547238210025}
   - component: {fileID: 4141123216654920484}
   m_Layer: 0
   m_Name: enemy_bult
-  m_TagString: Untagged
+  m_TagString: EnemyBult
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6240241681675960765
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7105215297193123449}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!136 &1920609549558797095
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -112,6 +98,24 @@ CapsuleCollider:
   m_Height: 0.51923394
   m_Direction: 1
   m_Center: {x: 0.001986742, y: -0.0019882917, z: 0}
+--- !u!114 &9131066547238210025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105215297193123449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183a26d6795ba314291cc3cd5980b01c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 15
+  DeleteTime: 5
+  SetStates: 1
+  PlayerExp: {fileID: 100008, guid: 3455fe69f7ddc4604b95bf9b0a1e88d7, type: 3}
+  EnemyExp: {fileID: 100012, guid: 160925a6fe2664f2a978566b819f0af0, type: 3}
+  HurtPlayerNum: 1
 --- !u!54 &4141123216654920484
 Rigidbody:
   m_ObjectHideFlags: 0

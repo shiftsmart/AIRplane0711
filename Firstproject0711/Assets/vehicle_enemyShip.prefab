@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3582879749666226623}
   - component: {fileID: 5190140309120432228}
   - component: {fileID: 2192545795134381154}
+  - component: {fileID: 1096743672177951274}
   m_Layer: 0
   m_Name: vehicle_enemyShip
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +31,8 @@ Transform:
   m_LocalRotation: {x: 0.022990482, y: -0.79210794, z: 0.6075221, w: 0.05434578}
   m_LocalPosition: {x: 1.4, y: 2.3, z: -0.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6155645246108197152}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -254.784, y: 372.80298, z: 186.478}
@@ -95,8 +97,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.273223, y: 0.4653732, z: 1.3378385}
-  m_Center: {x: 0.00005197619, y: -0.011736495, z: 0.31751996}
+  m_Size: {x: 1.273223, y: 0.885469, z: 1.3378385}
+  m_Center: {x: 0.00005197554, y: -0.10969195, z: 0.31752002}
 --- !u!54 &2192545795134381154
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -113,3 +115,50 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1096743672177951274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582879749668167551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5731dcdd798d75479df53ef318a9cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 5
+  DeleteTime: 5
+  Bullet: {fileID: 7105215297193123449, guid: cc2adb3d6dac7114ab5d52ccdaf72686, type: 3}
+  SetTime: 0.34
+  TargetPoint: {fileID: 6155645246108197152}
+--- !u!1 &8792803078145305586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6155645246108197152}
+  m_Layer: 0
+  m_Name: EnemyBult
+  m_TagString: EnemyBult
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6155645246108197152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8792803078145305586}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: -0.089, z: 0.148}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3582879749668520799}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
