@@ -11,6 +11,9 @@ public class Video : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
+        
+
         StartCoroutine(Wait());
     }
     IEnumerator Wait() {
